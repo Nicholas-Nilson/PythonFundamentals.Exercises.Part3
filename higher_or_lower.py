@@ -11,6 +11,7 @@ def user_guess():
 def random_number():
     return randrange(10)
 
+
 def get_result(guess, random):
     if guess < random:
         print("Guess: " + str(guess) + ". Actual: " + str(random) + ". Your guess was too low")
